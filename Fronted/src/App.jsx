@@ -1,3 +1,5 @@
+import Search from "./components/main/SearchBar";
+
 function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-white">
@@ -26,7 +28,22 @@ function App() {
           bg-zinc-900
           p-4 sm:p-6 lg:p-8
         ">
-         
+
+         <div className="search
+         w-full 
+         max-w-5xl
+         min-h-10
+         mx-auto
+         rounded-xl
+         bg-blue-500
+         ">
+            
+            <Search/>
+         </div>
+         <div></div>
+         <div></div>
+         <div></div>
+       
         </main>
 
         {/* Right Sidebar */}
